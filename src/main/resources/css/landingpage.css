@@ -1,0 +1,215 @@
+/* External CSS style file */
+
+* {
+   box-sizing: border-box;
+  
+}
+
+body {
+   font-family: Arial;
+   padding: 0;
+   background: #f1f1f1;
+   
+}
+
+/***************************** MAIN SECTION *****************************/
+.main {
+background-color: #934938;
+}
+
+/* Header (div) formatting */
+.header {
+   padding: 10px;
+   text-align: center;
+   color: white;
+}
+
+.header h1 {
+   font-size: 50px;
+   text-align: left;
+   padding:.5rem;
+   font-weight: 150;
+}
+
+
+/* Make the logo have a rounded edge */
+img.top-image {
+   vertical-align: middle;
+}
+
+/* CSS Layout from W3Schools: https://www.w3schools.com/css/css_templates.asp */
+/* Style the top navigation bar */
+.topnav {
+   overflow: hidden;
+   border-bottom: solid #D09D8C;
+ }
+ 
+ /* Style the topnav links */
+ .topnav a {
+   float: left;
+   display: block;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   
+
+ }
+ 
+ /* Change color on hover */
+ .topnav a:hover {
+   background-color: #A75340;
+   color: white;
+ }
+ 
+ /* Style the content */
+ .content {
+   padding: 20px;
+ }
+
+ .content h2 {
+  font-weight: 130;
+  font-size: 50px;
+  color: white;
+ }
+ 
+ /* Style the footer */
+ .footer {
+   background-color: #934938;
+   color: #40302D;
+   text-align: center;
+   padding: 10px;
+   
+ }
+
+ 
+ 
+
+/* Carousel Prev and Next Buttons */
+.c-control-next, .c-control-prev {
+  filter: invert(100%);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: .5;
+  transition: opacity .15s ease;
+}
+
+.c-control-next {
+    right: 0;
+}
+
+.carousel-indicators [data-bs-target]{
+  filter: invert(100%);
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 30px;
+  height: 3px;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: .5;
+  transition: opacity .6s ease;
+}
+
+
+/* dashed lines */
+div.top:before {
+  content: "";
+  position: absolute;
+  left: 15%;
+  top: 0;
+  height: 5px;
+  width: 70%;
+  border-top: 1.5px dashed whitesmoke;
+}
+
+
+/* Card Overlay */
+
+.card{
+  width: 25rem;
+  height: 30rem;
+  background-size:cover;
+  margin: 20px;
+}
+
+.card-overlay{
+  height: 23rem;
+  position: relative;
+  top: 3.5rem;
+  background-color: rgba(208, 157, 140, .6);
+  padding:20px;
+  color:white;
+  
+
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.card-overlay h5{
+  font-size:33px;
+  font-weight: 1;
+
+}
+
+/* Persona Class */
+.persona{
+  background-color:#40302D;
+}
+section.persona h1{
+  text-align: center;
+  padding:20px;
+  font-weight: 200;
+  color: white;
+
+}
+section.persona p{
+  color: white;
+}
+
+.persona-item{
+  border-top: 1px dashed #f2f2f2;
+  padding: 2rem;
+}
+
+
+section.persona h2{
+padding-top:.5rem;
+border-bottom : 1px solid brown;
+width: 300px;
+font-weight: 300;
+color: white;
+}
+
+section.persona h4{
+  color: white;
+  font-weight: 200;
+  /* border-bottom : 1px solid brown;
+  width: 15rem; */
+  }
+
+
+/* FOR THE TABLES! */
+.table-container {
+  height: 700;
+  overflow: auto;
+}
