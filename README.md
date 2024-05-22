@@ -7,7 +7,7 @@ This is a project that my partner and I did that uses JDBC to connect java with 
 2. Education
 3. Employment
 4. Housing
-5. Justice
+5. Population statistics
 6. Life expectancy
    
 ## Running the Main Web Server
